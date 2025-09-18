@@ -48,21 +48,21 @@ export const defaultSettings = {
 	sizeOfList: 15,
 	scrollHelper: false,
 	// Theme settings
-	theme: 'castafiore',
-	themePlayer: 'default',
+	theme: 'spotify',
+	themePlayer: 'green',
 	// Cache settings
 	isSongCaching: false,
 	cacheNextSong: 5,
 	showCache: true,
 	// Player settings
-	streamFormat: 'raw',
-	maxBitRate: 0,
+	streamFormat: 'mp3',
+	maxBitRate: 320,
 	playSeedFirst: false,
 	// Playlist settings
 	reversePlaylist: false,
 	orderPlaylist: 'title',
 	previewFavorited: 3,
-	language: 'en',
+	language: 'id',
 }
 
 export const homeSections = [

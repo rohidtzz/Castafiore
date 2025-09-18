@@ -20,6 +20,7 @@ const languages = [
 	{ lang: 'ru', name: 'Русский', color: '#ffc107', flag: '🇷🇺' },
 	{ lang: 'zhHans', name: '简体中文', color: '#FF0000', flag: '🇨🇳' },
 	{ lang: 'zhHant', name: '正體中文', color: '#0000AA', flag: '🇹🇼' },
+	{ lang: 'id', name: 'Bahasa Indonesia', color: '#FF0000', flag: '🇮🇩' },
 ]
 
 const Language = () => {

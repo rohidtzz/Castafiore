@@ -10,10 +10,11 @@ import es from './es.json';
 import ca from './ca.json';
 import zhHans from './zh-Hans.json';
 import zhHant from './zh-Hant.json';
+import id from './id.json';
 
 i18n.use(initReactI18next).init({
-  lng: 'en',
-  fallbackLng: 'en',
+  lng: 'id',
+  fallbackLng: 'id',
   resources: {
     en: en,
     it: it,
@@ -24,6 +25,7 @@ i18n.use(initReactI18next).init({
     es: es,
     zhHans: zhHans,
     zhHant: zhHant,
+    id: id,
   },
   interpolation: {
     escapeValue: false
